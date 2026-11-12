@@ -1,0 +1,29 @@
+# Python development
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+build/
+dist/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Generated lab data, reports and storage images
+/work/
+/backups/
+/reports/
+*.img
+*.qcow2
+*.vmdk
+
+# Editor state
+.vscode/
+.idea/
